@@ -13,3 +13,7 @@
 - Local data storage and the data can be upload to iCloud for backup
 
 - Support iPhone and iPad
+
+- Support multi searching types according to ID, name, phone number
+
+- Summary sales money ervery day for analysis
