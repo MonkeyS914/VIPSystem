@@ -17,3 +17,10 @@
 - Support multi searching types according to ID, name, phone number
 
 - Summary sales money ervery day for analysis
+
+## More infomation:
+
+- Use [QMUI](https://github.com/QMUI/QMUI_iOS) for UI layout
+
+- Use [WHCSqlite](https://github.com/netyouli/WHC_ModelSqliteKit) for local data storage
+
