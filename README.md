@@ -2,7 +2,7 @@
 
 ### A simple VIP Member system for bussiness
 
-## Feture:
+## Feature:
 
 - Record member information: name, member ID, phoneNum, cash, and shopping record
 
@@ -17,6 +17,9 @@
 - Support multi searching types according to ID, name, phone number
 
 - Summary sales money ervery day for analysis
+
+## Support iOS 8 + 
+## iPhone and iPad
 
 ## More infomation:
 
