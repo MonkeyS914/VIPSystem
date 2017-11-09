@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  VIPSystem
+//
+//  Created by Channe Sun on 2017/10/24.
+//  Copyright © 2017年 Omnivision. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <QMUIKit/QMUIKit.h>
+#import "QDCommonUI.h"
+#import "QDUIHelper.h"
+#import "QDThemeManager.h"
+#import <Masonry.h>
+#import <WHC_ModelSqlite.h>
+#import "MemObj.h"
+#import "recordObj.h"
+#import <MJRefreshNormalHeader.h>
+#import "PDKeyChain.h"
+#import "PassWordTool.h"
+#import "GlobalObj.h"
+
+#define AdjustString(str)     [NSString stringWithFormat:@"%.2f",[str floatValue]]
+
+#define IF_UI_DEBUG NO
+
+#define GLOBALE_CELL_HEIGHT IS_IPHONE ? 44.0 : 64.0
+
+#define ColorWithRGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define CcTextColor ColorWithRGB(120, 120, 120)
+
+#endif /* PrefixHeader_pch */
